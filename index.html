@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice</title>
+     <!-- Add your CSS or JS links here -->
+    <link rel="stylesheet" href="/chi/style.css">
+    <script type="text/javascript" src="/chi/script.js"></script>
+
+</head>
+<body>
+    <h1>Popular Cuisine Around The World<br>
+        and how they are related to each other</h1>
+<div class="grid-container" id="country">
+    <div class="grid-item flourish-embed flourish-chord" data-src="visualisation/15985533">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+    </div>
+
+    <div class="grid-item">
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'America')">America</button>
+            <button class="tablinks" onclick="openCity(event, 'Mexico')">Mexico</button>
+            <button class="tablinks" onclick="openCity(event, 'Brazil')">Brazil</button>
+            <button class="tablinks" onclick="openCity(event, 'France')">France</button>
+            <button class="tablinks" onclick="openCity(event, 'Spain')">Spain</button>
+            <button class="tablinks" onclick="openCity(event, 'Greece')">Greece</button>
+            <button class="tablinks" onclick="openCity(event, 'Morocco')">Morocco</button>
+            <button class="tablinks" onclick="openCity(event, 'Italy')">Italy</button>
+            <button class="tablinks" onclick="openCity(event, 'India')">India</button>
+            <button class="tablinks" onclick="openCity(event, 'China')">China</button>
+            <button class="tablinks" onclick="openCity(event, 'Thailand')">Thailand</button>
+            <button class="tablinks" onclick="openCity(event, 'Vietnam')">Vietnam</button>
+            <button class="tablinks" onclick="openCity(event, 'Singapore')">Singapore</button>
+            <button class="tablinks" onclick="openCity(event, 'Japan')">Japan</button>
+        </div>
+
+     <div>
+        <div id="America" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Varied and bold. Incorporates a mix of influences, often featuring smoky, spicy, and sweet notes. Barbecue, burgers, and comfort foods are common.</p>
+
+            <h3>Cultural Influences</h3>
+            <p>Native American, European, African, and Asian influences contribute to the diverse American culinary landscape. Immigration patterns, regional variations, and the availability of ingredients play significant roles. Regional specialties, such as Southern barbecue, Creole, and Western influences and New England clam chowder, highlight cultural diversity.</p>
+        </div>
+    
+        <div id="Brazil" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Vibrant, spicy, and tropical. Utilizes cilantro, cumin, and tropical fruits. Feijoada, moqueca, and churrasco represent these flavors.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Indigenous, Portuguese, African, and immigrant influences shape Brazilian cuisine. The use of native ingredients like cassava and açai is significant. The use of tropical fruits, beans, and roots reflects indigenous traditions. African influences are seen in dishes like feijoada, and Portuguese colonization introduced techniques like salted cod preparation. Regional diversity, from Bahia to the Amazon, contributes to varied culinary practices.
+            </p>
+        </div>
+    
+        <div id="China" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Balanced, umami-rich, and diverse. Incorporates soy sauce, ginger, garlic, and five-spice. Sweet and sour, spicy, and savory flavors are common.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Confucian, Taoist, and Buddhist philosophies influence Chinese dietary principles. The importance of harmony in flavors, colors, and textures is emphasized. The five flavors (sweet, sour, bitter, salty, umami) are crucial. Regional diversity, influenced by geography and historical developments, plays a significant role.
+            </p>
+        </div>
+
+        <div id="China" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Balanced, umami-rich, and diverse. Incorporates soy sauce, ginger, garlic, and five-spice. Sweet and sour, spicy, and savory flavors are common.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Confucian, Taoist, and Buddhist philosophies influence Chinese dietary principles. The importance of harmony in flavors, colors, and textures is emphasized. The five flavors (sweet, sour, bitter, salty, umami) are crucial. Regional diversity, influenced by geography and historical developments, plays a significant role.
+            </p>
+        </div>
+
+        <div id="France" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Elegant, rich, and balanced. Utilizes herbs like thyme, rosemary, and tarragon. Creamy sauces, buttery dishes, and hearty stews are common.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>French culinary culture places a high value on terroir (the unique characteristics of a region's soil and climate). The French emphasis on technique and craftsmanship is evident in classic culinary training. The Renaissance brought refinement, while the French Revolution democratized access to ingredients.
+            </p>
+        </div>
+
+        <div id="Greece" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Bright, herbaceous, and tangy. Features olive oil, oregano, mint, and lemon. Souvlaki, moussaka, and Greek salads showcase these flavors.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Ancient Greek and Byzantine traditions, as well as the Ottoman Empire's influence, shape Greek cuisine. Olive oil, grains, and herbs are staples. The Mediterranean climate shapes the availability of ingredients. The use of herbs like oregano and mint reflects the country's flora. The emphasis on community and celebration is reflected in communal dining practices.
+            </p>
+        </div>
+
+        <div id="India" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Spicy, aromatic, and complex. Features a mix of curry spices like cumin, coriander, turmeric, and cardamom. Diverse flavors in curries, biryanis, and masalas.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Hindu, Muslim, Sihk and British influences have contributed to the rich tapestry of flavors.  Ayurvedic principles guide food choices for health and balance. The use of spices reflects India's historical role in the spice trade. Colonial history introduced ingredients like potatoes and tomatoes. Regional differences are profound, with North and South India exhibiting distinct flavors.
+            </p>
+        </div>
+
+        <div id="Italy" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Herbaceous, savory, and robust. Balanced use of olive oil, garlic, tomatoes, and fresh herbs. Rich flavors in pasta, pizza, and hearty stews.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Italian cuisine is heavily influenced by the Mediterranean lifestyle, emphasizing communal meals and fresh, local produce. Regional diversity plays a significant role, with each area contributing unique flavors. Family and tradition are central to Italian dining.
+            </p>
+        </div>
+
+        <div id="Japan" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Umami-rich, subtle sweetness, clean and fresh. Balanced use of soy sauce, mirin, and sake. Delicate flavors in sushi, sashimi, and miso soup.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Shinto and Buddhist traditions emphasize simplicity and appreciation for natural flavors. Seasonality is crucial, and the art of presentation (kaiseki) is highly valued. The use of fresh, seasonal ingredients and a focus on aesthetics are integral to Japanese culinary culture.
+            </p>
+        </div>
+
+        <div id="Mexico" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Spicy, savory, and earthy. Relies on chili, cumin, garlic, and cilantro. Vibrant flavors in tacos, enchiladas, and mole sauces.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Indigenous ingredients like maize, beans, and chili have deep roots in Mexican cuisine. Spanish colonization introduced ingredients such as pork, beef, and dairy. Aztec and Maya traditions, as well as the Day of the Dead, influence culinary practices.
+            </p>
+        </div>
+
+        <div id="Morocco" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Warm, aromatic, and spicy. Uses cumin, coriander, cinnamon, and saffron. Tagines and couscous dishes showcase these flavors.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Moroccan cuisine is influenced by Berber, Arab, Andalusian, and French traditions. Islamic dietary principles guide food choices. Spices introduced through trade routes and French colonial influence contribute to the rich flavor profile.
+            </p>
+        </div>
+
+        <div id="Singapore" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Spicy, aromatic, and diverse. Combines ginger, garlic, chili, and lemongrass. Reflects a fusion of Chinese, Malay, and Indian influences.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Singapore's cuisine is a melting pot of Chinese, Malay, Indian, and Peranakan (Straits Chinese) influences. Colonial history introduced British, Dutch, and Portuguese elements. The diverse population and immigration contribute to a rich culinary tapestry. The city-state's multiculturalism is celebrated through its diverse food offerings. Hawker centers and street food are integral to Singaporean dining culture.
+            </p>
+        </div>
+
+        <div id="Spain" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Smoky, saffron-infused, and savory. Utilizes paprika, garlic, and olive oil. Paellas, tapas, and chorizo showcase these flavors.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Moorish, Roman, and Visigoth influences from Spain's history contribute to the diverse cuisine. The Reconquista brought new ingredients, and Spanish exploration introduced tomatoes, potatoes, and peppers. The Mediterranean climate contributes to the focus on olive oil, fresh produce, and seafood. Regional autonomy plays a role, with distinct culinary traditions in Catalonia, Andalusia, and the Basque Country.
+            </p>
+        </div>
+
+        <div id="Thailand" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Bold, spicy, sweet, and sour. Combines lemongrass, chili, lime, and fish sauce. Complex flavors in dishes like Tom Yum soup and green curry.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Thai cuisine is shaped by Buddhist principles, emphasizing balance in flavors. The balance of sweet, sour, salty, and spicy flavors is a reflection of Thai philosophy, emphasizing harmony in all aspects of life. Trade routes brought influences from India, China, and Malaysia, contributing to the diverse flavors. Thai royalty also played a role in refining the cuisine. 
+            </p>
+        </div>
+
+        <div id="Vietnam" class="tabcontent">
+            <h3>Flavor Profile</h3>
+            <p>Fresh, herbaceous, and balanced. Uses fish sauce, lime, mint, and lemongrass. Light and flavorful in dishes like pho and spring rolls.
+            </p>
+
+            <h3>Cultural Influences</h3>
+            <p>Vietnamese cuisine is influenced by Confucianism, emphasizing balance and harmony. French colonization introduced techniques like baking and the use of dairy. The importance of balance and harmony is reflected in the use of fresh herbs and contrasting flavors. The Vietnamese preference for fresh herbs and light, refreshing flavors is influenced by the tropical climate.
+            </p>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<div id="spice">
+    <h1>
+        Most common spice pairings in these 14 cuisines
+    </h1>
+</div>
+
+    <div class="flourish-embed flourish-chord" data-src="visualisation/15986312"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    
+    <!-- <div class="flags">
+        <svg viewBox="0 0 400 400">
+            <defs>
+                <path id="MyPath"
+                    d="M 200, 200
+                        m -80, 0
+                        a 90,90 0 1,1 180,0
+                        a 90,90 0 1,1 -180,0
+            " />
+            </defs>
+            
+            <text font-family="Verdana" font-size="10" fill="rgb(248,203,173)" stroke="rgb(237,125,49)">
+                <textPath xlink:href="#MyPath">
+                I want to bend my text around the circle. I want to bend my text around the circle. I want to bend my text around the circle.
+                </textPath>
+            </text>
+            <circle fill="none" stroke="rgb(165,195,251)" cx="200" cy="200" r="100" stroke-width="10" filter="blur(3px)" />
+            <circle fill="rgb(146,208,80)" stroke="rgb(169,209,142)" stroke-width="2px" cx="200" cy="200" r="98" />
+        </svg>
+    </div> -->
+      
+      
+
+</body>
+</html>
